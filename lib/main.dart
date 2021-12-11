@@ -122,9 +122,9 @@ class HomePage extends StatelessWidget {
     Widget menus() {
       return Container(
         margin: EdgeInsets.only(
-          left: defaultMargin,
+          left: 17.0,
           top: defaultMargin,
-          right: defaultMargin,
+          right: 17.0,
         ),
         child: Expanded(
           child: Column(
@@ -209,8 +209,6 @@ class HomePage extends StatelessWidget {
           Divider(
             color: secondaryColor,
             thickness: 5.0,
-            indent: 10,
-            endIndent: 10,
           ),
           menus(),
         ],
